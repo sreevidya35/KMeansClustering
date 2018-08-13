@@ -27,3 +27,17 @@ The process of the K Means Clustering on wiki topics is as following:
 * Run Tokenization to break the wiki page content into words. Also, removing the stop word as part of this process.
 * Run Normalization process to do the normalization of the words
 * Run K-Means Clustering to cluster the documents into their related documents.
+
+# Usage of ClusterWikiApplication.jar
+
+```java
+java -jar ClusterWikiApplication.jar <K number of cluster> <document1> <document2> ....
+
+Ex: Format of Document
+Wiki Link: https://en.wikipedia.org/wiki/Cricket
+<document> word to use: Cricket
+
+Ex: Format of Document
+Wiki Link: https://en.wikipedia.org/wiki/Macy%27s
+<document> word to use: Macy%27s
+```
