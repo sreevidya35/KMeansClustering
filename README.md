@@ -15,7 +15,7 @@ This component takes the words as input and runs the normalization process on it
 * Replace Symbols: Replaces the symbols and numbers present in the word.
 * Stemming: Replaces the stem substrings present in the word. 
 
-## KMeansClustering
+## Clustering
 This component will perform the clustering of the documents using the normalized tokens. 
 
 ## ClusteringApplication
